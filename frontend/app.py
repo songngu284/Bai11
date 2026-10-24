@@ -30,7 +30,7 @@ def read_setting(name: str, default: str = "") -> str:
 
 API_URL = read_setting("API_URL", "http://localhost:8000").rstrip("/")
 GEMINI_API_KEY = read_setting("GEMINI_API_KEY")
-GEMINI_MODEL = "gemini-2.5-flash-lite"
+GEMINI_MODEL = "gemini-3.5-flash-lite"
 SYSTEM_INSTRUCTION = (
     "Bạn là trợ lý thời tiết thân thiện dành cho học sinh THCS. "
     "Hãy trả lời ngắn gọn bằng tiếng Việt. Khi người dùng hỏi "
